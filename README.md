@@ -3,100 +3,52 @@
 ## Aim: 
 Comparative Analysis of different types of Prompting patterns and explain with Various Test Scenarios
 
-## Experiment:
+Experiment:
 Test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios. 
 Analyze the quality, accuracy, and depth of the generated responses.
 
 
 ## Algorithm:
-Step 1: Start the experiment.
-
-Step 2: Select a test scenario (e.g., General Knowledge, Creative Writing, Problem Solving, or Data Analysis).
-
-Step 3: Frame two types of prompts for the chosen scenario:
-
-Broad / Unstructured Prompt.
-
-Refined / Structured Prompt.
-
-Step 4: Input the Broad Prompt into the AI model and record the generated response.
-
-Step 5: Input the Refined Prompt into the AI model and record the generated response.
-
-Step 6: Compare the two outputs on the basis of:
-
-Step 7: Repeat Steps 2–6 for multiple scenarios.
-
-Step 8: Document the findings in a tabular format (Broad vs Refined output).
-
-Step 9: Analyze which type of prompting yields better quality responses.
-
-Step 10: Conclude the experiment.
+<img width="968" height="291" alt="image" src="https://github.com/user-attachments/assets/c2c53d88-7b87-451f-a5d9-cb23611022fe" />
+<img width="902" height="730" alt="image" src="https://github.com/user-attachments/assets/cd83179e-ab3f-48bc-a503-773c758b0f9f" />
 
 ## Output
-Scenario 1: General Knowledge
+# Scenario A: Broad / Unstructured Prompt
+# Broad/uncleared prompt
+<img width="1007" height="689" alt="image" src="https://github.com/user-attachments/assets/50dcf4c8-780a-4fa6-82e7-9cc8022fe6db" />
 
-Broad Prompt : “Tell me about Artificial Intelligence.”
+# clearer/basic prompt
+<img width="911" height="674" alt="image" src="https://github.com/user-attachments/assets/721a7c46-6f8c-484c-8f86-d0ff01424b13" />
 
-output:
+# Scenario B: Complex Reasoning (Math/Logic)
+# Broad/uncleared prompt
+<img width="884" height="396" alt="image" src="https://github.com/user-attachments/assets/2cab007f-83a0-415c-b5cf-5e711cc5eace" />
 
-<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/c2db03e9-25e5-45bb-b0f6-ce932e93cc9f" />
+# clearer/basic prompt
+<img width="967" height="309" alt="image" src="https://github.com/user-attachments/assets/328a5d1d-f213-4785-aab2-4cc326b65e3f" />
 
-Refined Prompt : “Explain Artificial Intelligence in simple terms with two real-world applications in healthcare and education.”
+# Scenario C: Creative Writing
+# Broad/uncleared prompt
+<img width="909" height="722" alt="image" src="https://github.com/user-attachments/assets/139d52bb-05c4-47fe-9614-6b98461e4636" />
 
-Output:
+# clearer/basic prompt
+<img width="872" height="776" alt="image" src="https://github.com/user-attachments/assets/f5fd0ed5-b2ca-498a-8850-3f0f036a8c10" />
 
-<img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/332c4c8b-7121-4764-a868-1848ca9eebfa" />
+# Scenario D: Knowledge-based Query
+# Broad/uncleared prompt
+<img width="901" height="786" alt="image" src="https://github.com/user-attachments/assets/1fffb03b-46c9-4e20-8e2c-a057fff306c6" />
 
-Scenario 2: Creative Writing
+# clearer/basic prompt
+<img width="904" height="750" alt="image" src="https://github.com/user-attachments/assets/a8e78177-a592-40c1-b8d7-da190ea46ba0" />
 
-Broad Prompt : “Write a story.”
+## Conclusion
 
-Output:
-
-<img width="1919" height="852" alt="image" src="https://github.com/user-attachments/assets/7c58e84f-966c-4bbf-9440-95043771d46d" />
-
-Refined Prompt : “Write a 100-word story about a robot that learns emotions for the first time, focusing on happiness.”
-
-Output:
-
-<img width="1919" height="872" alt="image" src="https://github.com/user-attachments/assets/91d8b3f9-46e1-4fab-a6c2-67e0a6f13c3a" />
-
-Scenario 3: Problem Solving (Math)
-
-Broad Prompt : “Solve this: 2x + 5 = 15.”
-
-Output:
-
-<img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/d6c9573a-0c6d-449e-a193-aebc7aef5984" />
-
-Refined Prompt : “Solve for x in the linear equation 2x + 5 = 15 and explain each step.”
-
-Output:
-
-<img width="1905" height="872" alt="image" src="https://github.com/user-attachments/assets/24b14cac-01cc-4d34-8637-7f731ab102b1" />
-
-Scenario 4: Instructional / Practical Task
-
-Broad Prompt : “Write a formal email.”
-
-Output:
-
-<img width="1915" height="865" alt="image" src="https://github.com/user-attachments/assets/c62b1d9c-72bd-430d-8ad5-012e20927351" />
-
-Refined Prompt : “Write a formal email to your professor requesting an extension for submitting an assignment. Keep it polite and professional.”
-
-<img width="1916" height="876" alt="image" src="https://github.com/user-attachments/assets/538af672-3695-403d-9643-34a4efb6b7d1" />
-
-## Comparitive Analysis Table
-
-| **Scenario**       | **Broad Prompt Output**                    | **Refined Prompt Output**                                     | **Quality**                         | **Accuracy**                        | **Depth**                                         |
-| ------------------ | ------------------------------------------ | ------------------------------------------------------------- | ----------------------------------- | ----------------------------------- | ------------------------------------------------- |
-| **AI Explanation** | General, covers many areas but verbose     | Simple analogy + 2 real-world examples                        | Refined is clearer                  | Refined is more precise             | Broad has more breadth, refined has focused depth |
-| **Storytelling**   | Generic creative story (Clockmaker’s Gift) | Short 100-word, focused on emotion (robot learning happiness) | Refined more engaging               | Refined aligns closely with request | Broad = imaginative, refined = concise & thematic |
-| **Math Problem**   | Straight solution steps (x=5)              | Step-by-step + verification                                   | Both clear, refined more structured | Both accurate                       | Refined adds explanatory depth                    |
-| **Formal Email**   | Generic template structure                 | Context-specific email (extension request)                    | Refined feels professional          | Refined highly accurate to scenario | Refined has more depth, broad = skeleton          |
+Broad / unstructured prompts → inconsistent, less reliable results.
+Refined prompts → significantly improve accuracy, depth, and relevance.
+Best strategies:
+Instruction + CoT for technical/analytical tasks.
+Role-Based + Few-Shot for creative and teaching scenarios.
+Effective prompt engineering is crucial for maximizing LLM performance.
 
 ## Result
-
-Broad prompts give general and creative outputs but lack focus.Refined prompts provide accurate, structured, and context-specific results.Overall, refined prompting improves quality, accuracy, and clarity, while broad prompting is better for brainstorming.
+Broad prompts give general, less structured responses, while refined prompts produce clearer, more accurate, and deeper outputs.
